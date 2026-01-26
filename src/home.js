@@ -8,7 +8,6 @@ function Home() {
 
       <ul>
         <li><a href="/one">Blog One</a></li>
-        <li><a href="/two">Blog Two</a></li>
       </ul>
     </div>
   );

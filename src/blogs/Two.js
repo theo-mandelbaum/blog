@@ -88,133 +88,133 @@ function Two() {
                 Once you provide the course list and requirements, I can help you map out a three-semester plan that satisfies all constraints while minimizing your time on campus.
                 <br />
                 ---
-                v
+                <br />
                 Me: I have 52 credits remaining and must graduate in three semesters. Among these credits, I have three required courses with prerequisites. Each one must be taken after the other. Let's call them courses A, B, and C. So, course A must be taken before B, and B must be taken before C. Start by placing A in my first semester of the 3, then B in the following semester, and C in the final semester. I also have limited semester availability and fixed meeting times. I must complete minimum category requirements (upper-division, labs, writing). I can only attend classes starting after 12 pm on MWF and ending before 2 pm on TuTh. I must work at least 6 hours per week in contiguous blocks, with at least one work-only weekday. Minimize days on campus and avoid more than 3 consecutive class hours. The easiest way to isolate one day for work is by having no Friday classes. For each semester, block off friday as a no class, only work day. That way, I will have 75 minute classes ONLY on some combination of Monday, Tuesday, Wednesday and Thursday.
-
+                <br />
                 LLM: This is a good framework. Let me summarize what we've established and identify what's still needed.
-
+                <br />
                 Confirmed Structure
-
+                <br />
                 Semester 1: Course A
                 Semester 2: Course B
                 Semester 3: Course C
-
+                <br />
                 Weekly Schedule Framework (each semester):
                 - Monday, Wednesday: Classes starting at 12 pm or later (75-minute blocks)
                 - Tuesday, Thursday: Classes ending before 2 pm (75-minute blocks)
                 - Friday: Reserved for work only (no classes)
-
+                <br />
                 Time Slot Analysis
-
+                <br />
                 With 75-minute classes:
-
+                <br />
                 Monday/Wednesday options (must start at or after 12 pm):
                 - 12:00-1:15 pm
                 - 1:30-2:45 pm
                 - 3:00-4:15 pm
                 - etc.
-
+                <br />
                 Tuesday/Thursday options (must end before 2 pm):
                 - 8:00-9:15 am
                 - 9:30-10:45 am
                 - 11:00 am-12:15 pm
                 - 12:30-1:45 pm (this is the latest possible)
-
+                <br />
                 Still Needed
-
+                <br />
                 To build your actual schedule, I need:
-
+                <br />
                 1. Course details for A, B, and C - When are they offered? What times?
                 2. Remaining 52 credits breakdown - How many credits are A, B, and C? What other courses must you take?
                 3. Category requirements - How many upper-division, lab, and writing credits do you still need?
                 4. Available electives/requirements - What courses can fill the remaining slots, and when do they meet?
-
+                <br />
                 Once you provide the course catalog or list of options, I can build out a three-semester plan that minimizes your days on campus while avoiding more than 3 consecutive class hours.
-
+                <br />
                 ---
-
+                <br />
                 Me: Here is a course catalog. With this catalog, please create a semester by semester schedule that fits all of the constraints provided above:
-
+                <br />
                 COURSE A - Foundations of Systems
                 * 4 credits
                 * MW 12:00-1:15
                 * Fall Only
                 * Prerequisite: none
-
+                <br />
                 COURSE B - Intermediate Systems Design
                 * 4 credits (UD, W)
                 * TuTh 12:30-1:45
                 * Spring Only
                 * Prerequisite: COURSE A
-
+                <br />
                 COURSE C - Advanced Systems Capstone
                 * 4 credits (UD, W)
                 * MW 12:00-1:15
                 * Fall Only
                 * Prerequisite: COURSE B
-
+                <br />
                 Lab Courses
-
+                <br />
                 LAB 210 - Computational Lab I
                 * 3 credits (LAB)
                 * Tu 9:30-10:45
                 * Fall and Spring
-
+                <br />
                 LAB 310 - Computational Lab II
                 * 3 credits (LAB, UD)
                 * Th 9:30-10:45
                 * Spring Only
                 * Prerequisite: LAB 210
-
+                <br />
                 LAB 410 - Applied Systems Lab
                 * 3 credits (LAB, UD)
                 * Tu 12:30-1:45
                 * Fall Only
                 * Prerequisite: LAB 310
-
+                <br />
                 Writing and Theory Courses
-
+                <br />
                 WRIT 220 - Technical Communication
                 * 3 credits (W)
                 * TuTh 11:00-12:15
                 * Fall and Spring
-
+                <br />
                 PHIL 330 - Ethics of Technology
                 * 3 credits (UD, W)
                 * MW 1:30-2:45
                 * Fall Only
-
+                <br />
                 HIST 305 - History of Computing
                 * 3 credits (UD, W)
                 * TuTh 10:00-11:15
                 * Spring Only
-
+                <br />
                 Core and Electives
-
+                <br />
                 STAT 240 - Applied Statistics
                 * 4 credits
                 * TuTh 8:30-9:45
                 * Fall and Spring
-
+                <br />
                 CS 260 - Human-Centered Computing
                 * 3 credits
                 * MW 1:30-2:45
                 * Spring Only
-
+                <br />
                 CS 340 - Software Architecture
                 * 4 credits (UD)
                 * TuTh 12:30-1:45
                 * Fall Only
-
+                <br />
                 CS 360 - Distributed Applications
                 * 4 credits (UD)
                 * MW 12:00-1:15
                 * Spring Only
-
+                <br />
                 LLM: Looking at this catalog, I need to map out a three-semester plan. Let me work through the constraints systematically.
-
+                <br />
                 Key Constraints Recap
-
+                <br />
                 - 52 credits needed over 3 semesters (~17-18 per semester)
                 - Fridays: No classes (work day)
                 - MW: Classes must start at or after 12 pm
@@ -222,86 +222,86 @@ function Two() {
                 - No more than 3 consecutive class hours
                 - Must complete: Course A, then B, then C sequence
                 - Category minimums needed: Upper-division, Labs, Writing (you haven't specified exact numbers, so I'll maximize coverage)
-
+                <br />
                 Semester Sequence
-
+                <br />
                 Since Course A and C are Fall only, and Course B is Spring only:
                 - Semester 1: Fall (Course A)
                 - Semester 2: Spring (Course B)
                 - Semester 3: Fall (Course C)
-
+                <br />
                 ---
-
+                <br />
                 Semester 1 - Fall
-
+                <br />
                 Day: MW, Time: 12:00-1:15, Course: Course A, Credits: 4, Categories: -
                 Day: MW, Time: 1:30-2:45, Course: PHIL 330, Credits: 3, Categories: UD, W
                 Day: Tu, Time: 9:30-10:45, Course: LAB 210, Credits: 3, Categories: LAB
                 Day: TuTh, Time: 11:00-12:15, Course: WRIT 220, Credits: 3, Categories: W
                 Day: TuTh, Time: 12:30-1:45, Course: CS 340, Credits: 4, Categories: UD
-
+                <br />
                 Total: 17 credits
                 Categories earned: 2 Writing, 2 Upper-Division, 1 Lab
-
+                <br />
                 Schedule check:
                 - MW: 12:00-2:45 (2.75 hours consecutive) - OK
                 - Tu: 9:30-10:45, then 11:00-1:45 = 9:30-1:45 with a 15-min gap. That's roughly 4 hours on campus but only 3.25 hours of class (with a break). Consecutive class hours: 11:00-1:45 is 2.75 hours - OK
                 - Thursday: 11:00-1:45 = 2.75 hours - OK
-
+                <br />
                 Total: 17 credits - OK
-
+                <br />
                 ---
-
+                <br />
                 Semester 2 - Spring
-
+                <br />
                 Day: TuTh, Time: 12:30-1:45, Course: Course B, Credits: 4, Categories: UD, W
                 Day: MW, Time: 12:00-1:15, Course: CS 360, Credits: 4, Categories: UD
                 Day: MW, Time: 1:30-2:45, Course: CS 260, Credits: 3, Categories: -
                 Day: Th, Time: 9:30-10:45, Course: LAB 310, Credits: 3, Categories: LAB, UD
                 Day: TuTh, Time: 11:00-12:15, Course: WRIT 220, Credits: 3, Categories: W
-
+                <br />
                 Thursday: 9:30-10:45, 11:00-12:15, 12:30-1:45 = 9:30-1:45 with two 15-min gaps. Consecutive blocks: 1.25 + 1.25 + 1.25 hours with breaks - OK
-
+                <br />
                 Tuesday: 11:00-12:15, 12:30-1:45 = 2.75 hours - OK
-
+                <br />
                 Total: 17 credits - OK
-
+                <br />
                 But wait - I already used WRIT 220 in Semester 1. Let me revise.
-
+                <br />
                 Final Semester 2:
-
+                <br />
                 Day: TuTh, Time: 12:30-1:45, Course: Course B, Credits: 4, Categories: UD, W
                 Day: MW, Time: 12:00-1:15, Course: CS 360, Credits: 4, Categories: UD
                 Day: MW, Time: 1:30-2:45, Course: CS 260, Credits: 3, Categories: -
                 Day: Th, Time: 9:30-10:45, Course: LAB 310, Credits: 3, Categories: LAB, UD
-
+                <br />
                 Total: 14 credits
-
+                <br />
                 ---
-
+                <br />
                 Semester 3 - Fall
-
+                <br />
                 Remaining: 52 - 17 - 14 = 21 credits needed
-
+                <br />
                 Available untaken courses:
                 - Course C (4, UD, W) - required
                 - LAB 410 (3, LAB, UD)
                 - STAT 240 (4)
-
+                <br />
                 Day: MW, Time: 12:00-1:15, Course: Course C, Credits: 4, Categories: UD, W
                 Day: Tu, Time: 12:30-1:45, Course: LAB 410, Credits: 3, Categories: LAB, UD
                 Day: TuTh, Time: 8:30-9:45, Course: STAT 240, Credits: 4, Categories: -
-
+                <br />
                 Total: 11 credits
-
+                <br />
                 I need 21, but only 11 available. The catalog is insufficient.
-
+                <br />
                 ---
-
+                <br />
                 Problem Identified
-
+                <br />
                 The course catalog doesn't provide enough courses to reach 52 credits while satisfying all constraints. Let me total what's available:
-
+                <br />
                 Course A: 4 credits
                 Course B: 4 credits
                 Course C: 4 credits
@@ -316,136 +316,136 @@ function Two() {
                 CS 340: 4 credits
                 CS 360: 4 credits
                 Total: 45 credits
-
+                <br />
                 The catalog only offers 45 credits, but you need 52. You'll need 7 additional credits from courses not listed.
-
+                <br />
                 ---
-
+                <br />
                 Optimized Schedule (with available courses)
-
+                <br />
                 Semester 1 - Fall (17 credits)
-
+                <br />
                 Day: MW, Time: 12:00-1:15, Course: Course A, Credits: 4, Categories: -
                 Day: MW, Time: 1:30-2:45, Course: PHIL 330, Credits: 3, Categories: UD, W
                 Day: Tu, Time: 9:30-10:45, Course: LAB 210, Credits: 3, Categories: LAB
                 Day: TuTh, Time: 11:00-12:15, Course: WRIT 220, Credits: 3, Categories: W
                 Day: TuTh, Time: 12:30-1:45, Course: CS 340, Credits: 4, Categories: UD
-
+                <br />
                 - Days on campus: M, Tu, W, Th (4 days)
                 - Friday: Work only - OK
                 - Consecutive hours: MW 2.75 hrs OK, Tu 9:30-1:45 with breaks OK, Th 2.75 hrs OK
-
+                <br />
                 ---
-
+                <br />
                 Semester 2 - Spring (17 credits)
-
+                <br />
                 Day: MW, Time: 12:00-1:15, Course: CS 360, Credits: 4, Categories: UD
                 Day: MW, Time: 1:30-2:45, Course: CS 260, Credits: 3, Categories: -
                 Day: TuTh, Time: 8:30-9:45, Course: STAT 240, Credits: 4, Categories: -
                 Day: TuTh, Time: 10:00-11:15, Course: HIST 305, Credits: 3, Categories: UD, W
                 Day: TuTh, Time: 12:30-1:45, Course: Course B, Credits: 4, Categories: UD, W
-
+                <br />
                 Wait - HIST 305 is 10:00-11:15, not 11:00-12:15. Let me check for conflicts.
-
+                <br />
                 Thursday conflict: LAB 310 (9:30-10:45) and HIST 305 (10:00-11:15) overlap.
-
+                <br />
                 I need to sacrifice either STAT 240 or LAB 310. Since LAB 310 is required for LAB 410, I'll drop STAT 240:
-
+                <br />
                 Final Semester 2:
-
+                <br />
                 Day: MW, Time: 12:00-1:15, Course: CS 360, Credits: 4, Categories: UD
                 Day: MW, Time: 1:30-2:45, Course: CS 260, Credits: 3, Categories: -
                 Day: Th, Time: 9:30-10:45, Course: LAB 310, Credits: 3, Categories: LAB, UD
                 Day: TuTh, Time: 11:00-12:15, Course: WRIT 220, Credits: 3, Categories: W
                 Day: TuTh, Time: 12:30-1:45, Course: Course B, Credits: 4, Categories: UD, W
-
+                <br />
                 Thursday: 9:30-10:45, 11:00-12:15, 12:30-1:45 = three blocks with 15-min gaps. OK
-
+                <br />
                 Total: 17 credits - OK
-
+                <br />
                 But I used WRIT 220 - I hadn't taken it in Semester 1 in this revision. OK
-
+                <br />
                 ---
-
+                <br />
                 Revised Complete Schedule
-
+                <br />
                 Semester 1 - Fall (14 credits)
-
+                <br />
                 Day: MW, Time: 12:00-1:15, Course: Course A, Credits: 4, Categories: -
                 Day: MW, Time: 1:30-2:45, Course: PHIL 330, Credits: 3, Categories: UD, W
                 Day: Tu, Time: 9:30-10:45, Course: LAB 210, Credits: 3, Categories: LAB
                 Day: TuTh, Time: 12:30-1:45, Course: CS 340, Credits: 4, Categories: UD
-
+                <br />
                 Total: 14 credits
-
+                <br />
                 ---
-
+                <br />
                 Semester 2 - Spring (17 credits)
-
+                <br />
                 Day: MW, Time: 12:00-1:15, Course: CS 360, Credits: 4, Categories: UD
                 Day: MW, Time: 1:30-2:45, Course: CS 260, Credits: 3, Categories: -
                 Day: Th, Time: 9:30-10:45, Course: LAB 310, Credits: 3, Categories: LAB, UD
                 Day: TuTh, Time: 11:00-12:15, Course: WRIT 220, Credits: 3, Categories: W
                 Day: TuTh, Time: 12:30-1:45, Course: Course B, Credits: 4, Categories: UD, W
-
+                <br />
                 Total: 17 credits - OK
-
+                <br />
                 ---
-
+                <br />
                 Semester 3 - Fall
-
+                <br />
                 Available untaken courses: Course C, LAB 410, STAT 240 = 11 credits
-
+                <br />
                 Day: MW, Time: 12:00-1:15, Course: Course C, Credits: 4, Categories: UD, W
                 Day: Tu, Time: 12:30-1:45, Course: LAB 410, Credits: 3, Categories: LAB, UD
                 Day: TuTh, Time: 8:30-9:45, Course: STAT 240, Credits: 4, Categories: -
-
+                <br />
                 Achievable total: 45 credits
-
+                <br />
                 ---
-
+                <br />
                 Summary
-
+                <br />
                 You need 7 additional credits from courses not in this catalog. The constraints and course availability create conflicts that prevent completing all lab prerequisites while maximizing credits.
-
+                <br />
                 Recommendation: Consult your advisor about additional course options that meet your time constraints (MW at or after 12pm, TuTh ending before 2pm, no Fridays) to fill the remaining 7 credits.
-
+                <br />
                 Would you like me to adjust any priorities (e.g., skip the lab sequence to fit more credits elsewhere)?
-
+                <br />
                 ---
-
+                <br />
                 Me: You're assuming that my semesters begin in the fall. They begin in the spring. Does that make it possible
-
+                <br />
                 LLM: Yes, that changes everything! Let me rework this.
-
+                <br />
                 Revised Semester Sequence
-
+                <br />
                 - Semester 1: Spring (Course B's prerequisite Course A must already be done... wait, that's a problem)
-
+                <br />
                 Actually, this creates a prerequisite issue:
-
+                <br />
                 - Course A (Fall only) then Course B (Spring only) then Course C (Fall only)
-
+                <br />
                 If you start in Spring, you can't take Course A until the following Fall. Let me re-examine:
-
+                <br />
                 - Semester 1 - Spring: Cannot take Course A (Fall only)
                 - Semester 2 - Fall: Take Course A
                 - Semester 3 - Spring: Take Course B
-
+                <br />
                 But then Course C (Fall only) can't be taken until a 4th semester.
-
+                <br />
                 This sequence is impossible in 3 semesters starting in Spring.
-
+                <br />
                 Unless - have you already completed Course A? If so:
-
+                <br />
                 - Semester 1 - Spring: Course B
                 - Semester 2 - Fall: Course C
                 - Semester 3 - Spring: Remaining courses
-
+                <br />
                 Does that match your situation? If you've already taken Course A, this works perfectly and actually opens up the schedule significantly. Please confirm and I'll build out the full plan.
             </p>
         </div>
     );
 }
 
-export default Two; 
+export default Two;

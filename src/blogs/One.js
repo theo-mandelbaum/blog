@@ -3,7 +3,8 @@ import React from 'react';
 function One() {
     return (
         <div className="blog-post">
-            <h1>First Blog - Software Development with AI</h1>
+            <h1>The Feeling of Power and My Experience with LLMs</h1>
+            <small>01-26-2026</small>
             <p>
                 This is my first blog for CS480, Software Development with AI. This week, I've been tasked with reading Isaac Asimov's <a href="https://ia600806.us.archive.org/20/items/TheFeelingOfPower/The%20Feeling%20of%20Power.pdf" target="_blank" rel="noopener noreferrer">The Feeling of Power</a>. After reading, I am to ask myself two questions regarding the story and answer these questions. Along with that I'll be discussing my personal experience with LLMs and how I've used them so far in this course, and describe a possible idea for an upcoming project in this course.
             </p>

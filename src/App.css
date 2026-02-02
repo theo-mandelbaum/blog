@@ -119,6 +119,11 @@
   margin-bottom: 24px;
 }
 
+.blog-post small {
+  display: block;
+  margin-bottom: 12px;
+}
+
 .blog-post h2 {
   font-size: 1.4rem;
   font-weight: 500;

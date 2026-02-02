@@ -7,7 +7,8 @@ function Home() {
       <h1>Theo's Blog</h1>
 
       <ul>
-        <li><a href="/one">Blog One</a></li>
+        <li><a href="/one">The Feeling of Power and My Experience with LLMs</a></li>
+        <li><a href="/two">Fictional Interview and Chain of Thought Prompting</a></li>
       </ul>
     </div>
   );

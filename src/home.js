@@ -9,6 +9,7 @@ function Home() {
       <ul>
         <li><a href="/one">The Feeling of Power and My Experience with LLMs</a></li>
         <li><a href="/two">Fictional Interview and Chain of Thought Prompting</a></li>
+        <li><a href="/three">Fictional Interview and Chain of Thought Prompting</a></li>
       </ul>
     </div>
   );

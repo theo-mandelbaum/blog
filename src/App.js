@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './home';
 import One from './blogs/One';
 import Two from './blogs/Two';
+import Three from './blogs/Three';
 import './App.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/one" element={<One />} />
           <Route path="/two" element={<Two />} />
+          <Route path="/three" element={<Three />} />
         </Routes>
       </main>
 

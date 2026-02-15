@@ -9,7 +9,8 @@ function Home() {
       <ul>
         <li><a href="/one">The Feeling of Power and My Experience with LLMs</a></li>
         <li><a href="/two">Fictional Interview and Chain of Thought Prompting</a></li>
-        <li><a href="/three">Shuky Meyer's Guest Visit and AI Essay</a></li>
+        <li><a href="/three">Shuky Meyer's Guest Visit and Cory Doctorow's AI Essay</a></li>
+        <li><a href="/four">AI-Native Employees and Computer Science Educational Changes</a></li>
       </ul>
     </div>
   );

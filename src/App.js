@@ -4,6 +4,7 @@ import Home from './home';
 import One from './blogs/One';
 import Two from './blogs/Two';
 import Three from './blogs/Three';
+import Four from './blogs/Four';
 import './App.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/one" element={<One />} />
           <Route path="/two" element={<Two />} />
           <Route path="/three" element={<Three />} />
+          <Route path="/four" element={<Four />} />
         </Routes>
       </main>
 

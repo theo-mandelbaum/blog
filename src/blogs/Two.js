@@ -6,12 +6,18 @@ function Two() {
             <h1>Fictional Interview and Chain of Thought Prompting</h1>
             <small>02-02-2026</small>
             <p>
-                This week, I've been tasked with reading Addy Osmani's article, <a href="https://addyosmani.com/blog/next-two-years/" target="_blank" rel="noopener noreferrer">The Next Two Years of Software Engineering</a>. After reading, I am to make a fictional job interview dialog between a seasoned software engineer and an interviewee that is a about to graduate with a computer science degree. I'll be using many of the AI related ideas from Osmani's article to drive my fictional interview dialog. Along with that, I will be finding an LLM prompt that fails until I apply Chain of Thought techniques and sharing my findings.
+                This week, I've been tasked with reading Addy Osmani's article, <a href="https://addyosmani.com/blog/next-two-years/" target="_blank" rel="noopener noreferrer">The Next Two Years of Software Engineering</a>.
+                After reading, I am to make a fictional job interview dialog between a seasoned software engineer
+                and an interviewee that is a about to graduate with a computer science degree. I'll be using many
+                of the AI related ideas from Osmani's article to drive my fictional interview dialog. Along with
+                that, I will be finding an LLM prompt that fails until I apply Chain of Thought techniques and
+                sharing my findings.
             </p>
             <br />
             <h2>Fictional Job Interview</h2>
             <p>
-                In this interview, I'll be giving names to the interviewer and the interviewee for the sake of simplification. The interviewer will be named James and the students name is Michael
+                In this interview, I'll be giving names to the interviewer and the interviewee for the sake
+                of simplification. The interviewer will be named James and the students name is Michael
             </p>
             <p>
                 *Zoom call starts*
@@ -53,7 +59,8 @@ function Two() {
             </p>
             <h2>Chain of Thought Prompting</h2>
             <p>
-                In this transcript, I ask Claude to solve a problem regarding class scheduling. It fails to get an answer that matches my requirements until I provide further questioning.
+                In this transcript, I ask Claude to solve a problem regarding class scheduling. It fails to
+                get an answer that matches my requirements until I provide further questioning.
                 <br />
                 Me: I have 52 credits remaining and must graduate in three semesters. Courses have prerequisites, limited semester availability, and fixed meeting times. I must complete minimum category requirements (upper-division, labs, writing). I can only attend classes starting after 12 pm on MWF and ending before 2 pm on TuTh. I must work at least 6 hours per week in contiguous blocks, with at least one work-only weekday. Minimize days on campus and avoid more than 3 consecutive class hours.
                 <br />

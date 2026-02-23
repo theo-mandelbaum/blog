@@ -11,6 +11,7 @@ function Home() {
         <li><a href="/two">Fictional Interview and Chain of Thought Prompting</a></li>
         <li><a href="/three">Shuky Meyer's Guest Visit and Cory Doctorow's AI Essay</a></li>
         <li><a href="/four">AI-Native Employees and Computer Science Educational Changes</a></li>
+        <li><a href="/five">Jeff Larkin's Visit and The Possible Futures of Software Engineering</a></li>
       </ul>
     </div>
   );

@@ -15,6 +15,7 @@ function Home() {
         <li><a href="/six">John Miller's Visit and My AI Identity</a></li>
         <li><a href="/seven">The Eternal Promise, The Training Data Paradox, and AI Myths</a></li>
         <li><a href="/eight">Dalia Abo Sheasha's Visit, Martin Fowler, and Stack Overflow's AI Survey</a></li>
+        <li><a href="/nine">Cassidy Williams' Visit and Vibe Coding</a></li>
       </ul>
     </div>
   );

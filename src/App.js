@@ -11,6 +11,7 @@ import Seven from './blogs/Seven';
 import Eight from './blogs/Eight';
 import Nine from './blogs/Nine';
 import Ten from './blogs/Ten';
+import Eleven from './blogs/Eleven';
 import './App.css';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path="/eight" element={<Eight />} />
           <Route path="/nine" element={<Nine />} />
           <Route path="/ten" element={<Ten />} />
+          <Route path="/eleven" element={<Eleven />} />
         </Routes>
       </main>
 

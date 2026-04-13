@@ -17,6 +17,7 @@ function Home() {
         <li><a href="/eight">Dalia Abo Sheasha's Visit, Martin Fowler, and Stack Overflow's AI Survey</a></li>
         <li><a href="/nine">Cassidy Williams' Visit and Vibe Coding</a></li>
         <li><a href="/ten">Endre Szakal's Visit and LLM Tool Use</a></li>
+        <li><a href="/eleven">Nick Morgan's Visit and Security in Software Engineering</a></li>
       </ul>
     </div>
   );

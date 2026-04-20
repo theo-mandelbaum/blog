@@ -18,6 +18,7 @@ function Home() {
         <li><a href="/nine">Cassidy Williams' Visit and Vibe Coding</a></li>
         <li><a href="/ten">Endre Szakal's Visit and LLM Tool Use</a></li>
         <li><a href="/eleven">Nick Morgan's Visit and Security in Software Engineering</a></li>
+        <li><a href="/twelve">Nick Morgan's Visit Reflection, Class Reflections, and Navigating Tensions</a></li>
       </ul>
     </div>
   );

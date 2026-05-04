@@ -10,7 +10,7 @@ function Thirteen() {
             <p>
                 Hi Spanish 102 students. The purpose of this project is to create a social network that allows students
                  who are learning foreign languages to effectively study and review. It creates a more interactive mode
-                 of communication, meant for educational purposes. Today you'll be testing out our site.
+                 of communication, meant for educational purposes. Today you'll be testing out our <a href='https://138-197-42-211.sslip.io/cs480/login' target="_blank" rel="noopener noreferrer">site</a>.
             </p>
             <br />
             <h2>Login and Test Our Network</h2>

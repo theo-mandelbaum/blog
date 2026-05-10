@@ -50,7 +50,7 @@ function Seven() {
             <br />
             <h2>Nogramming Assignment Progress</h2>
             <p>
-                This week, I'll bgein planning the materials and resources needed to build the piece of an LLM by hand. Then I will buy some of the materials.
+                This week, I'll begin planning the materials and resources needed to build the piece of an LLM by hand. Then I will buy some of the materials.
             </p>
         </div>
     );
